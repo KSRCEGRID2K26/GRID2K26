@@ -396,23 +396,15 @@ footer p{
     margin-bottom:60px;
 }
 
-.committee h2{
-    width:100%;
-    text-align:center;
-    color:#fff;
-    font-size:58px;
-    font-weight:900;
-    margin-bottom:60px;
-    letter-spacing:2px;
-    text-transform:uppercase;
-
-    text-shadow:
-        0 3px 0 #0a2a5e,
-        0 6px 0 #061a38,
-        0 10px 20px rgba(0,0,0,.6),
-        0 0 20px #ffd700;
+.committee h2::after{
+    content:"";
+    display:block;
+    width:220px;
+    height:5px;
+    margin:18px auto 0;
+    border-radius:10px;
+    background:linear-gradient(90deg,#ffd700,#ff9800,#ffd700);
 }
-
 .committee{
     display:flex;
     flex-wrap:wrap;
@@ -909,12 +901,4 @@ section{
     background: linear-gradient(135deg,#8e2de2,#4a00e0);
     border:2px solid #c084fc;
 }
-.committee h2::after{
-    content:"";
-    display:block;
-    width:220px;
-    height:5px;
-    margin:18px auto 0;
-    border-radius:10px;
-    background:linear-gradient(90deg,#ffd700,#ff9800,#ffd700);
-}
+
