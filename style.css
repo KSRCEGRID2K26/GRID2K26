@@ -388,10 +388,8 @@ footer p{
     -webkit-text-fill-color:transparent;
 
     text-shadow:
-        1px 1px 0 #8b6508,
-        2px 2px 0 #6d4c00,
-        3px 3px 0 #4d3400,
-        4px 4px 6px rgba(0,0,0,0.45);
+        2px 2px 0 #ffffff,
+        4px 4px 8px rgba(0,0,0,0.35);
 
     margin-bottom:60px;
 }
