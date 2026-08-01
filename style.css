@@ -422,8 +422,7 @@ footer p{
 
 .committee .card:hover{
     transform:translateY(-10px) scale(1.05);
-    box-shadow:0 0 30px #ffd700;
-    border:2px solid #ffd700;
+    box-shadow:0 20px 35px rgba(0,0,0,.4);
 }
 
 .committee .card h3{
@@ -440,20 +439,18 @@ footer p{
 
 
 .committee .card p:first-of-type{
+    color:#fff;
     font-size:30px;
     font-weight:900;
-    color:#ffffff;
-    margin:18px 0;
     text-shadow:
-        1px 1px 0 #fff,
-        2px 2px 0 #fff,
-        4px 4px 8px rgba(0,0,0,.25);
+        2px 2px 0 #002b7f,
+        4px 4px 8px rgba(0,0,0,.35);
 }
 
 .committee .card p:last-of-type{
+    color:#ffd700;
     font-size:20px;
     font-weight:700;
-    color:#ffd700;
 }
 
 .card{
