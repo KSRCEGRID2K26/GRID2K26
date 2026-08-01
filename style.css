@@ -376,16 +376,9 @@ footer p{
     margin:5px 0;
 }
 .committee h2{
-   color: #ffd700;
--webkit-text-fill-color: #ffd700;
-    text-shadow:
-        2px 2px 0 #002b6b,
-        4px 4px 0 #001a4d,
-        0 0 12px rgba(255,215,0,.6);
-
-    font-size: 60px;
-    font-weight: 900;
-    text-transform: uppercase;
+    width:100%;
+    text-align:center;
+    margin:0 auto 60px;
 }
 
 .committee h2::after{
@@ -905,6 +898,21 @@ section{
         width: 90%;
         max-width: 320px;
     }
+    @media (max-width: 768px){
+
+    .committee h2{
+        width:100%;
+        text-align:center;
+        margin:0 auto 40px;
+        font-size:42px;
+        line-height:1.2;
+    }
+
+    .committee h2::after{
+        margin:15px auto 0;
+    }
+
 }
 }
+
 
