@@ -376,22 +376,17 @@ footer p{
     margin:5px 0;
 }
 .committee h2{
-    width:100%;
-    text-align:center;
-    font-size:60px;
-    font-weight:900;
-    text-transform:uppercase;
-    letter-spacing:3px;
-
-    background:linear-gradient(to bottom,#fff6b7,#ffd700,#ffb300,#ff8c00);
-    -webkit-background-clip:text;
-    -webkit-text-fill-color:transparent;
+    color: #ffd700;
+    -webkit-text-fill-color: #ffd700;
 
     text-shadow:
-        2px 2px 0 #ffffff,
-        4px 4px 8px rgba(0,0,0,0.35);
+        2px 2px 0 #002b6b,
+        4px 4px 0 #001a4d,
+        0 0 12px rgba(255,215,0,.6);
 
-    margin-bottom:60px;
+    font-size: 60px;
+    font-weight: 900;
+    text-transform: uppercase;
 }
 
 .committee h2::after{
@@ -898,5 +893,12 @@ section{
 .committee .card:nth-child(5){
     background: linear-gradient(135deg,#8e2de2,#4a00e0);
     border:2px solid #c084fc;
+}
+@media (max-width:768px){
+    .committee h2{
+        color:#ffd700 !important;
+        -webkit-text-fill-color:#ffd700 !important;
+        background:none !important;
+    }
 }
 
