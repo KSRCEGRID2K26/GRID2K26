@@ -402,10 +402,9 @@ footer p{
     background: linear-gradient(145deg, #ff416c, #ff4b2b) !important;
 }
 
-.co-convenor{
-    flex-basis: 100%;
-    display: flex;
-    justify-content: center;
+.co-convenor .card{
+    background: linear-gradient(135deg, #11998e, #38ef7d) !important;
+    border: 2px solid #0a8f68 !important;
 }
 
 .co-convenor .card{
