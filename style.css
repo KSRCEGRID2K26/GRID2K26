@@ -376,9 +376,10 @@ footer p{
     margin:5px 0;
 }
 .committee h2{
-    width:100%;
-    text-align:center;
-    margin:0 auto 60px;
+    color:#0b3b78;
+    -webkit-text-fill-color:#0b3b78;
+    background:none;
+    text-shadow:2px 2px 0 #ffffff;
 }
 
 .committee h2::after{
@@ -911,8 +912,32 @@ section{
     .committee h2::after{
         margin:15px auto 0;
     }
+        @media (max-width:768px){
 
+    .committee-grid{
+        display:grid;
+        grid-template-columns:repeat(3,1fr);
+        gap:15px;
+        justify-items:center;
+    }
+
+    .committee-card{
+        width:100%;
+        max-width:170px;
+    }
+
+    /* Last 2 cards center */
+    .committee-card:nth-child(4){
+        grid-column:1 / span 2;
+        justify-self:end;
+    }
+
+    .committee-card:nth-child(5){
+        grid-column:2 / span 2;
+        justify-self:start;
+    }
 }
-}
+    }
+
 
 
