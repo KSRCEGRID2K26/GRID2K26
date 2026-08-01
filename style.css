@@ -410,11 +410,13 @@ footer p{
 
 .committee .card{
     width:270px;
-    background:#fff;
-    border-radius:18px;
-    padding:30px 20px;
-    box-shadow:0 10px 25px rgba(0,0,0,.25);
-    transition:.3s;
+    background: linear-gradient(145deg, #163d77, #0b2447);
+    color: #fff;
+    border: 2px solid #ffd700;
+    border-radius: 18px;
+    padding: 30px 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.35);
+    transition: .3s;
 }
 
 .committee .card:hover{
@@ -439,7 +441,7 @@ footer p{
 .committee .card p:first-of-type{
     font-size:30px;
     font-weight:900;
-    color:#002b7f;
+    color:#ffffff;
     margin:18px 0;
     text-shadow:
         1px 1px 0 #fff,
@@ -450,7 +452,7 @@ footer p{
 .committee .card p:last-of-type{
     font-size:20px;
     font-weight:700;
-    color:#444;
+    color:#ffd700;
 }
 
 .card{
