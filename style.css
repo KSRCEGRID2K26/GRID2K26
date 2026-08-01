@@ -376,20 +376,18 @@ footer p{
     margin:5px 0;
 }
 .committee h2{
-    color:#0b3b78;
-    -webkit-text-fill-color:#0b3b78;
-    background:none;
-    text-shadow:2px 2px 0 #ffffff;
+    width: fit-content;
+    margin: 0 auto 50px;
+    text-align: center;
+
+    color: #0b3b78;
+    -webkit-text-fill-color: #0b3b78;
+    background: none;
+    text-shadow: 2px 2px 0 #ffffff;
 }
 
 .committee h2::after{
-    content:"";
-    display:block;
-    width:220px;
-    height:5px;
-    margin:18px auto 0;
-    border-radius:10px;
-    background:linear-gradient(90deg,#ffd700,#ff9800,#ffd700);
+    margin: 18px auto 0;
 }
 .committee-container{
     display: flex;
