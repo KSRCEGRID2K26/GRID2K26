@@ -802,3 +802,43 @@ section{
     font-weight:bold;
     color:#FFD700;
 }
+/* Organizing Committee */
+.committee {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.committee .card {
+    background: rgba(255,255,255,0.08);
+    border: 2px solid #ffd700;
+    border-radius: 20px;
+    padding: 25px;
+    margin: 20px auto;
+    width: 300px;
+    box-shadow: 0 0 20px rgba(255,215,0,0.4);
+    transition: 0.3s;
+}
+
+.committee .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgba(255,215,0,0.8);
+}
+
+.committee .card h3 {
+    color: #ffd700;
+    font-size: 24px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.committee .card p:first-of-type {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    text-shadow: 0 0 10px #ffd700;
+}
+
+.committee .card p:last-of-type {
+    color: #cccccc;
+    font-size: 16px;
+}
