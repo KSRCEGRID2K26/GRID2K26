@@ -431,8 +431,9 @@ footer p{
     font-weight:900;
     letter-spacing:2px;
     text-shadow:
-        1px 1px 0 #b8860b,
-        2px 2px 0 #8b6508;
+    1px 1px 0 #b8860b
+    2px 2px 0 #8b6508,
+    3px 3px 0 #5c4305;
 }
 
 
