@@ -379,16 +379,26 @@ footer p{
     padding: 70px 20px;
     background: linear-gradient(135deg,#001b44,#003b73);
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .committee h2{
     width:100%;
     text-align:center;
     color:#fff;
-    font-size:48px;
-    font-weight:800;
-    margin-bottom:50px;
-    text-shadow:0 0 15px rgba(255,215,0,.5);
+    font-size:58px;
+    font-weight:900;
+    margin-bottom:60px;
+    letter-spacing:2px;
+    text-transform:uppercase;
+
+    text-shadow:
+        0 3px 0 #0a2a5e,
+        0 6px 0 #061a38,
+        0 10px 20px rgba(0,0,0,.6),
+        0 0 20px #ffd700;
 }
 
 .committee{
