@@ -893,19 +893,20 @@ section{
 
 @media (max-width:768px){
 
-    .committee-container{
-        display:grid;
-        grid-template-columns:repeat(2,1fr);
-        gap:15px;
-        justify-items:center;
-    }
+  .committee-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    justify-items: center;
+}
 
     .committee .card{
-        width:110px;
-    }
+    width: 75px;
+    padding: 10px 6px;
+}
 
-   .committee-container .co-convenor{
-    grid-column: 1 / -1;
+  .committee-container .co-convenor{
+    grid-column: 2 / 4;
     justify-self: center;
 }
 
