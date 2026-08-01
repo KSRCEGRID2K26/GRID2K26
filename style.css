@@ -375,12 +375,14 @@ footer h3{
 footer p{
     margin:5px 0;
 }
-.committee {
-    padding: 70px 20px;
-    background: linear-gradient(135deg,#001b44,#003b73);
-    text-align: center;
-    display: flex;
-    
+.committee{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+    justify-items: center;
+    align-items: start;
+    max-width: 1100px;
+    margin: 0 auto;
 }
 
 .committee h2{
@@ -408,7 +410,7 @@ footer p{
 }
 
 .committee .card{
-    width:270px;
+   width: 280px;
     background: linear-gradient(145deg, #163d77, #0b2447);
     color: #fff;
     border: 2px solid #ffd700;
