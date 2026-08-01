@@ -375,14 +375,25 @@ footer h3{
 footer p{
     margin:5px 0;
 }
-.committee{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 35px;
-    justify-items: center;
-    align-items: start;
-    max-width: 1100px;
-    margin: 0 auto;
+.committee h2{
+    width:100%;
+    text-align:center;
+    font-size:60px;
+    font-weight:900;
+    text-transform:uppercase;
+    letter-spacing:3px;
+
+    background:linear-gradient(to bottom,#fff6b7,#ffd700,#ffb300,#ff8c00);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+
+    text-shadow:
+        1px 1px 0 #8b6508,
+        2px 2px 0 #6d4c00,
+        3px 3px 0 #4d3400,
+        4px 4px 6px rgba(0,0,0,0.45);
+
+    margin-bottom:60px;
 }
 
 .committee h2{
@@ -897,4 +908,13 @@ section{
 .committee .card:nth-child(5){
     background: linear-gradient(135deg,#8e2de2,#4a00e0);
     border:2px solid #c084fc;
+}
+.committee h2::after{
+    content:"";
+    display:block;
+    width:220px;
+    height:5px;
+    margin:18px auto 0;
+    border-radius:10px;
+    background:linear-gradient(90deg,#ffd700,#ff9800,#ffd700);
 }
