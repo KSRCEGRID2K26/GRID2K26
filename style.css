@@ -376,9 +376,9 @@ footer p{
     margin:5px 0;
 }
 .committee h2{
-    color: #ffd700;
-    -webkit-text-fill-color: #ffd700;
-
+    background: linear-gradient(to bottom,#fff6b7,#ffd700,#ffb300,#ff8c00);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
     text-shadow:
         2px 2px 0 #002b6b,
         4px 4px 0 #001a4d,
