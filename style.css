@@ -375,14 +375,55 @@ footer h3{
 footer p{
     margin:5px 0;
 }
-.committee{
-    padding:60px 20px;
-    background:#f5f5f5;
-    text-align:center;
+.committee {
+    padding: 70px 20px;
+    background: linear-gradient(135deg,#001b44,#003b73);
+    text-align: center;
 }
 
 .committee h2{
-    margin-bottom:30px;
+    color:#fff;
+    font-size:38px;
+    margin-bottom:50px;
+}
+
+.committee{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:30px;
+}
+
+.committee .card{
+    width:270px;
+    background:#fff;
+    border-radius:18px;
+    padding:30px 20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+    transition:.3s;
+}
+
+.committee .card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 35px rgba(255,193,7,.5);
+}
+
+.committee .card h3{
+    color:#0b3d91;
+    font-size:28px;
+    margin-bottom:20px;
+}
+
+.committee .card p:first-of-type{
+    font-size:24px;
+    font-weight:bold;
+    color:#222;
+    margin-bottom:12px;
+}
+
+.committee .card p:last-of-type{
+    color:#666;
+    font-size:18px;
 }
 
 .card{
@@ -801,44 +842,4 @@ section{
     font-size:40px;
     font-weight:bold;
     color:#FFD700;
-}
-/* Organizing Committee */
-.committee {
-    text-align: center;
-    padding: 60px 20px;
-}
-
-.committee .card {
-    background: rgba(255,255,255,0.08);
-    border: 2px solid #ffd700;
-    border-radius: 20px;
-    padding: 25px;
-    margin: 20px auto;
-    width: 300px;
-    box-shadow: 0 0 20px rgba(255,215,0,0.4);
-    transition: 0.3s;
-}
-
-.committee .card:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 30px rgba(255,215,0,0.8);
-}
-
-.committee .card h3 {
-    color: #ffd700;
-    font-size: 24px;
-    margin-bottom: 15px;
-    text-transform: uppercase;
-}
-
-.committee .card p:first-of-type {
-    color: white;
-    font-size: 22px;
-    font-weight: bold;
-    text-shadow: 0 0 10px #ffd700;
-}
-
-.committee .card p:last-of-type {
-    color: #cccccc;
-    font-size: 16px;
 }
