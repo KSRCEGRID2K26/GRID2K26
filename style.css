@@ -873,3 +873,28 @@ section{
     font-weight:bold;
     color:#FFD700;
 }
+/* Individual card colors */
+.committee .card:nth-child(1){
+    background: linear-gradient(135deg,#1e3c72,#2a5298);
+    border:2px solid #7ec8ff;
+}
+
+.committee .card:nth-child(2){
+    background: linear-gradient(135deg,#6a11cb,#2575fc);
+    border:2px solid #9fd0ff;
+}
+
+.committee .card:nth-child(3){
+    background: linear-gradient(135deg,#11998e,#38ef7d);
+    border:2px solid #7fffd4;
+}
+
+.committee .card:nth-child(4){
+    background: linear-gradient(135deg,#ff8008,#ffb347);
+    border:2px solid #ffd700;
+}
+
+.committee .card:nth-child(5){
+    background: linear-gradient(135deg,#8e2de2,#4a00e0);
+    border:2px solid #c084fc;
+}
