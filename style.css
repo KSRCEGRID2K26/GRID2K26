@@ -380,8 +380,7 @@ footer p{
     background: linear-gradient(135deg,#001b44,#003b73);
     text-align: center;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    
 }
 
 .committee h2{
