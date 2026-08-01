@@ -398,15 +398,18 @@ footer p{
     width: 100%;
     margin: 0 auto;
 }
-.committee .card{
-   width: 280px;
-    background: linear-gradient(145deg, #163d77, #0b2447);
-    color: #fff;
-    border: 2px solid #ffd700;
-    border-radius: 18px;
-    padding: 30px 20px;
-    box-shadow: 0 10px 30px rgba(0,0,0,.35);
-    transition: .3s;
+.mentor-card{
+    background: linear-gradient(145deg, #ff7b00, #ffb84d) !important;
+}
+
+.co-convenor{
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.co-convenor .card{
+    width: 280px;
 }
 
 .committee .card:hover{
