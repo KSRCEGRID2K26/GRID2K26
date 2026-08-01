@@ -397,13 +397,15 @@ footer p{
     border-radius:10px;
     background:linear-gradient(90deg,#ffd700,#ff9800,#ffd700);
 }
-.committee{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:center;
-    gap:30px;
+.committee-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    width: 100%;
+    margin: 0 auto;
 }
-
 .committee .card{
    width: 280px;
     background: linear-gradient(145deg, #163d77, #0b2447);
