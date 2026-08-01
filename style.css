@@ -896,10 +896,15 @@ section{
     border:2px solid #c084fc;
 }
 @media (max-width:768px){
-    .committee h2{
-        color:#ffd700 !important;
-        -webkit-text-fill-color:#ffd700 !important;
-        background:none !important;
+    .committee-container{
+        justify-content: center;
+        gap: 20px;
     }
+
+    .committee-card{
+        width: 90%;
+        max-width: 320px;
+    }
+}
 }
 
