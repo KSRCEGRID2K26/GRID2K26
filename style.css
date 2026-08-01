@@ -382,9 +382,13 @@ footer p{
 }
 
 .committee h2{
+    width:100%;
+    text-align:center;
     color:#fff;
-    font-size:38px;
+    font-size:48px;
+    font-weight:800;
     margin-bottom:50px;
+    text-shadow:0 0 15px rgba(255,215,0,.5);
 }
 
 .committee{
@@ -404,8 +408,9 @@ footer p{
 }
 
 .committee .card:hover{
-    transform:translateY(-12px) scale(1.05);
-    box-shadow:0 0 35px #ffd700;
+    transform:translateY(-10px) scale(1.05);
+    box-shadow:0 0 30px #ffd700;
+    border:2px solid #ffd700;
 }
 
 .committee .card h3{
@@ -424,11 +429,12 @@ footer p{
 .committee .card p:first-of-type{
     font-size:30px;
     font-weight:900;
-    color:#0b3d91;
-    margin:20px 0;
+    color:#002b7f;
+    margin:18px 0;
     text-shadow:
-        2px 2px 0 #ffffff,
-        4px 4px 10px rgba(0,0,0,.35);
+        1px 1px 0 #fff,
+        2px 2px 0 #fff,
+        4px 4px 8px rgba(0,0,0,.25);
 }
 
 .committee .card p:last-of-type{
